@@ -1,0 +1,19 @@
+{
+  "name": "sigcatmin",
+  "version": "0.1.0",
+  "description": "Sistema de Catastro Minero para uso del publico general",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron src/main.js",
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Aguado H.",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt-compile": "^1.7.11"
+  },
+  "dependencies": {
+    "electron-compile": "^6.4.2"
+  }
+}
